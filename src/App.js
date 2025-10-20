@@ -1,21 +1,21 @@
 import React from "react";
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
+// import Header from "./components/Header/Header";
+// import Hero from "./components/Hero/Hero";
 import Sidebar from "./components/Sidebar/Sidebar";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 function App() {
   return (
-    <div className="app-container">
+    <div className="app-root">
       <Sidebar />
-      <div className="main-content">
+      <main className="main-content">
         <div className="container">
-          <Header />
-          <Hero />
-          <Footer />
+          {/* <Header /> */}
+          {/* <Hero /> */}
+          {/* <Footer /> */}
         </div>
-      </div>
+      </main>
     </div>
   );
 }
