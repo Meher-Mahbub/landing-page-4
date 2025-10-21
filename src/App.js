@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
+// import Hero from "./components/Hero/Hero";
 import Sidebar from "./components/Sidebar/Sidebar";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
       <div className="main-content">
         <div className="container">
           <Header />
-          <Hero />
-          <Footer />
+          {/* <Hero /> */}
+          {/* <Footer /> */}
         </div>
       </div>
     </div>
