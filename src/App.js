@@ -1,5 +1,5 @@
 import React from "react";
-// import Header from "./components/Header/Header";
+import Header from "./components/Header/Header";
 // import Hero from "./components/Hero/Hero";
 import Sidebar from "./components/Sidebar/Sidebar";
 // import Footer from "./components/Footer/Footer";
@@ -11,7 +11,7 @@ function App() {
       <Sidebar />
       <main className="main-content">
         <div className="container">
-          {/* <Header /> */}
+          <Header />
           {/* <Hero /> */}
           {/* <Footer /> */}
         </div>
