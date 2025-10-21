@@ -3,28 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html,
 body,
 #root {
   height: 100%;
-  width: 100%;
   font-family: "Poppins", sans-serif;
 }
 
-.app-container {
-  display: flex;
-  height: 100vh;
-  overflow: hidden;
+.app-root {
+  min-height: 100vh;
+  background: #fff;
 }
 
 .main-content {
-  flex: 1;
-  background: #fff;
-  overflow: hidden;
+  min-height: 100vh;
+  margin-left: 120px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  background: #fff;
+  overflow-x: hidden;
 }
 
 .container {
