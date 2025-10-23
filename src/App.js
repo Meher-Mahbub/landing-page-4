@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
@@ -7,16 +8,20 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="app-container">
-      <Sidebar />
-      <main className="main-content">
-        <div className="container">
-          <Header />
-          <Hero />
-          {/* <Footer /> */}
-        </div>
-      </main>
-    </div>
+    <Router>
+      <div className="app-container">
+        <Sidebar />
+        <main className="main-content">
+          <div className="container">
+            <Header />
+            <Routes>
+              <Route path="/" element={<Hero />} />
+              {/* future elems */}
+            </Routes>
+          </div>
+        </main>
+      </div>
+    </Router>
   );
 }
 
