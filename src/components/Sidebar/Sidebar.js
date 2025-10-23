@@ -7,15 +7,15 @@ function Sidebar() {
       <div className="sidebar-logo">maliko</div>
 
       <div className="sidebar-subnav">
-        <span>material</span>
-        <span>designers</span>
-        <span>process</span>
+        <a href="#material">material</a>
+        <a href="#designers">designers</a>
+        <a href="#process">process</a>
       </div>
 
       <div className="sidebar-socials">
-        <span>fb</span>
-        <span>pi</span>
-        <span>in</span>
+        <a href="#fb">fb</a>
+        <a href="#pi">pi</a>
+        <a href="#in">in</a>
       </div>
     </aside>
   );
